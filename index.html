@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body ng-app="templateVsEvent">
+
+<div ng-view></div>
+
+<div>
+    <div ng-include="'fragment.html'"></div>
+</div>
+
+<script src="vendor/angular/angular.js"></script>
+<script src="vendor/angular/angular-route.js"></script>
+<script src="_app.js"></script>
+<script src="FragmentCtrl.js"></script>
+<script src="ViewCtrl.js"></script>
+</body>
+</html>
